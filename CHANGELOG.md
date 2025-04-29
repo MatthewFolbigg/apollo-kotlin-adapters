@@ -1,5 +1,10 @@
 # Next version (unreleased)
 
+# Version 0.0.5
+_2025-04-29_
+
+* Do not set the license URL in the POMs (#29)
+
 # Version 0.0.4
 _2024-09-02_
 
