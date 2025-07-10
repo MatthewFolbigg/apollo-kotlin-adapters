@@ -45,8 +45,8 @@ kotlin {
   sourceSets {
     getByName("commonMain") {
       dependencies {
-        implementation(libs.apollo.api)
-        implementation(libs.kotlinx.datetime)
+        api(libs.apollo.api)
+        api(libs.kotlinx.datetime)
       }
     }
 
