@@ -48,7 +48,7 @@ kotlin {
   sourceSets {
     getByName("commonMain") {
       dependencies {
-        implementation(libs.apollo.api)
+        api(libs.apollo.api)
       }
     }
 
