@@ -46,7 +46,7 @@ kotlin {
     getByName("commonMain") {
       dependencies {
         api(libs.apollo.api)
-        implementation(libs.kotlinx.datetime)
+        api(libs.kotlinx.datetime)
       }
     }
 
