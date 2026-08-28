@@ -1,7 +1,5 @@
 import com.gradleup.librarian.gradle.Librarian
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
-import org.jetbrains.kotlin.gradle.dsl.KotlinNativeCompilerOptions
-import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.tasks.KotlinNativeCompile
 
 plugins {
@@ -27,7 +25,7 @@ kotlin {
   js(IR) {
     nodejs()
   }
-  @OptIn(ExperimentalWasmDsl::class)
+  @OptIn(org.jetbrains.kotlin.gradle.ExperimentalWasmDsl::class)
   wasmJs {
     nodejs()
   }
